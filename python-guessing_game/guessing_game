@@ -2,7 +2,7 @@ import math
 import random
 lower = int(input("Enter lower bound :"))
 upper = int(input("Enter upper bound :"))
-x = random.randint(upper, lower)
+x = random.randint(lower, upper)
 print("/n/t"You have only", round(math.log(upper - lower +1 , 2), "guesses left")
 count = 0
 while count < math.log(upper, lower +1 , 2)
